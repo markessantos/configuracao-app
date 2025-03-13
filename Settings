@@ -1,0 +1,32 @@
+{
+  "sites": [
+    {
+      "url": "https://site1.com",
+      "cookies": [
+        {
+          "name": "sessao",
+          "value": "valor_do_cookie",
+          "domain": ".site1.com"
+        }
+      ],
+      "credentials": {
+        "email": "cliente1@exemplo.com",
+        "password": "senha123"
+      }
+    },
+    {
+      "url": "https://site2.com",
+      "cookies": [
+        {
+          "name": "sessao",
+          "value": "valor_cookie2",
+          "domain": ".site2.com"
+        }
+      ],
+      "credentials": {
+        "email": "cliente2@exemplo.com",
+        "password": "senha456"
+      }
+    }
+  ]
+}
